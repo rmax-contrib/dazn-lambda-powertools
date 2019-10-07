@@ -2,7 +2,7 @@ const middy = require('middy')
 const sampleLogging = require('@dazn/lambda-powertools-middleware-sample-logging')
 const captureCorrelationIds = require('@dazn/lambda-powertools-middleware-correlation-ids')
 const logTimeout = require('@dazn/lambda-powertools-middleware-log-timeout')
-const supplementCsv = require('./supplement-csv')
+const supplementCsv = require('@dazn/lambda-powertools-supplement-csv')
 
 const AWS_REGION = process.env.AWS_REGION || process.env.AWS_DEFAULT_REGION
 const FUNCTION_NAME = process.env.AWS_LAMBDA_FUNCTION_NAME

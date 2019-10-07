@@ -12,6 +12,7 @@
     "@dazn/lambda-powertools-middleware-correlation-ids": "^1.11.0",
     "@dazn/lambda-powertools-middleware-log-timeout": "^1.9.1",
     "@dazn/lambda-powertools-middleware-sample-logging": "^1.9.0",
+    "@dazn/lambda-powertools-supplement-csv": "^1.0.0",
     "middy": "^0.15.0"
   },
   "publishConfig": {
